@@ -28,11 +28,12 @@ body {
 .nav-bar ul {
   list-style-type: none;
   display: flex;
-  align-content: space-between;
 }
 
 .nav-bar li {
   display: flex;
+  align-content: space-between;
+  width: 20%;
 }
 
 .banner-bar {
@@ -42,13 +43,11 @@ body {
 img {
   max-width: 100%;
 }
-/*.membership-bar {
-  width: 100%;
-}*/
 
-input {
+.registration-fields-button {
   align-items: flex-end;
 }
+
 
 .page-header {
   width: 100%;
@@ -64,3 +63,4 @@ input {
   
 }
 
+/*my flex layout is being challenging so Im heading off to learn more, be back soon on git */
