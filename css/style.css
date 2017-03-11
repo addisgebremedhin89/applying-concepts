@@ -66,3 +66,13 @@ img {
 /*my flex layout is being challenging so Im heading off to learn more, be back soon on git */
 
 /*actually im going to practice a little more media query before I do that*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                  RESPONSIVE DESIGN
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+@media all and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+}
