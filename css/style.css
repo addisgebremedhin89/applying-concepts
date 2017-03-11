@@ -1,13 +1,29 @@
 html,
 body {
   height: 100%;
+}
+
+.container {
   display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner-bar {
+  display: flex;
+  width: 100%;
+}
+.nav-bar {
+  display: flex;
+  background-color: grey;
+  width: 100%;
 }
 
 .page-header img {
   display: flex;
-  align-content: center;
+  align-items: center;
 }
+
 .page-header h4 {
   color: grey;
   text-transform: uppercase;
