@@ -16,19 +16,23 @@ body {
 }
 
 /*aha he answered my question: "the children of a flex parent are all in one row unless you use flex-wrap:wrap wa-lah magic!"*/
+
 .nav-bar {
-  /*display: flex; /*why cant i get my divs to stack, whyyyyyy*/
   background-color: #8c919b;
   width: 100%;
   height: 150px;
+  flex-direction: column;
+  /*display: flex; /*why cant i get my divs to stack, whyyyyyy*/
 }
 
 .nav-bar ul {
   list-style-type: none;
+  display: flex;
+  align-content: space-between;
 }
 
 .nav-bar li {
-  justify-content: space-around;
+  display: flex;
 }
 
 .banner-bar {
