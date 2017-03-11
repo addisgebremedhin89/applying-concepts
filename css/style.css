@@ -14,9 +14,10 @@ body {
 }
 
 .nav-bar {
-  display: block;
+  display: block; /*why cant i get my divs to stack, whyyyyyy*/
   background-color: #8c919b;
   width: 100%;
+  height: 150px;
 }
 
 .nav-bar ul {
