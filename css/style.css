@@ -1,3 +1,7 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                          VIEWSPACE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
 html,
 body {
   height: 100%;
@@ -9,14 +13,25 @@ body {
   padding: 0px;
 }
 
-.banner-bar {
-  display: flex;
+.nav-bar {
+  display: block;
+  background-color: #8c919b;
   width: 100%;
 }
-.nav-bar {
+
+.nav-bar ul {
+  list-style-type: none;
+}
+
+.nav-bar li {
   display: flex;
-  background-color: grey;
+  justify-content: space-around;
+  display: inline;
+}
+
+.banner-bar {
   width: 100%;
+  display: block;
 }
 
 .page-header img {
