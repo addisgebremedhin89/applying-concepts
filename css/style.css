@@ -12,11 +12,12 @@ body {
   display: flex;
   margin: 0px;
   padding: 0px;
+  flex-wrap: wrap;
 }
 
 /*aha he answered my question: "the children of a flex parent are all in one row unless you use flex-wrap:wrap wa-lah magic!"*/
 .nav-bar {
-  display: flex; /*why cant i get my divs to stack, whyyyyyy*/
+  /*display: flex; /*why cant i get my divs to stack, whyyyyyy*/
   background-color: #8c919b;
   width: 100%;
   height: 150px;
