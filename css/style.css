@@ -7,6 +7,7 @@ body {
   height: 100%;
 }
 
+/*FYI: when applying flex properties and values to a declared element/class/id then those properties we have declared will apply to the emelements in that container*/
 .container {
   display: flex;
   margin: 0px;
