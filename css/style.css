@@ -35,8 +35,23 @@ body {
   width: 100%;
 }
 
+img {
+  max-width: 100%;
+}
+/*.membership-bar {
+  width: 100%;
+}*/
+
+input {
+  align-items: flex-end;
+}
+
+.page-header {
+  width: 100%;
+}
+
 .page-header img {
-  align-items: center;
+  justify-content: center;
 }
 
 .page-header h4 {
@@ -44,3 +59,4 @@ body {
   text-transform: uppercase;
   
 }
+
