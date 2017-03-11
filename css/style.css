@@ -1,9 +1,15 @@
 html,
 body {
   height: 100%;
+  display: flex;
 }
 
+.page-header img {
+  display: flex;
+  align-content: center;
+}
 .page-header h4 {
   color: grey;
   text-transform: uppercase;
+  
 }
